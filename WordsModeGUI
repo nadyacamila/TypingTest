@@ -1,0 +1,12 @@
+package wordsmodegui;
+import javax.swing.*;
+
+public class WordsModeGUI {
+    public static void main(String[] args) {
+    PickRange pick = new PickRange();
+    pick.setSize(720,400);
+    pick.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    pick.setVisible(true);
+        
+    }
+}
